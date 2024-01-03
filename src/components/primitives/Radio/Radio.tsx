@@ -161,7 +161,6 @@ const Radio = (
 ) => {
   const formControlContext = useFormControlContext();
   const contextState = React.useContext(RadioContext);
-  console.log('radio', contextState);
 
   const combinedProps = combineContextAndProps(
     { ...formControlContext, ...contextState },
@@ -170,7 +169,7 @@ const Radio = (
   const inputRef = React.useRef(null);
   const radioState = useRadio(
     { ...combinedProps, 'aria-label': props.accessibilityLabel, children },
-    contextState?.state ?? {},
+    contextState.state ?? {},
     inputRef
   );
 
