@@ -162,7 +162,7 @@ const Radio = (
   const formControlContext = useFormControlContext();
   const contextState = React.useContext(RadioContext);
 
-  console.log('radio', contextState);
+  console.warn('radio', contextState);
 
   const combinedProps = combineContextAndProps(
     { ...formControlContext, ...contextState },
