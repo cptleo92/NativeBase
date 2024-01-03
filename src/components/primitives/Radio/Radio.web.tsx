@@ -150,7 +150,7 @@ const Radio = (
   const inputRef = React.useRef(null);
   const radioState = useRadio(
     { ...combinedProps, 'aria-label': props.accessibilityLabel, children },
-    contextState.state ?? {},
+    contextState?.state ?? {},
     inputRef
   );
 
