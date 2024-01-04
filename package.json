@@ -192,7 +192,7 @@
     "@react-stately/checkbox": "3.0.3",
     "@react-stately/collections": "3.3.0",
     "@react-stately/combobox": "3.0.0-alpha.1",
-    "@react-stately/radio": "3.2.1",
+    "@react-stately/radio": "3.10.1",
     "@react-stately/slider": "3.0.1",
     "@react-stately/tabs": "3.0.0-alpha.1",
     "@react-stately/toggle": "3.2.1",
